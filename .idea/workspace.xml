@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1cdac29d-4cc0-47ba-8a92-493f9c1ab73c" name="Default Changelist" comment="" />
+    <list default="true" id="1cdac29d-4cc0-47ba-8a92-493f9c1ab73c" name="Default Changelist" comment="-- Project setup is ready">
+      <change afterPath="$PROJECT_DIR$/blog/public/Nectaria Free Website Template - Free-CSS.com/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/Nectaria Free Website Template - Free-CSS.com/article.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/Nectaria Free Website Template - Free-CSS.com/assets/css/screen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/Nectaria Free Website Template - Free-CSS.com/assets/fonts/MonoSocialIconsFont-1.10.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/Nectaria Free Website Template - Free-CSS.com/assets/fonts/MonoSocialIconsFont-1.10.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/Nectaria Free Website Template - Free-CSS.com/assets/fonts/MonoSocialIconsFont-1.10.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/Nectaria Free Website Template - Free-CSS.com/assets/fonts/MonoSocialIconsFont-1.10.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/Nectaria Free Website Template - Free-CSS.com/assets/fonts/MonoSocialIconsFont-1.10.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/Nectaria Free Website Template - Free-CSS.com/assets/fonts/casper-icons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/Nectaria Free Website Template - Free-CSS.com/assets/fonts/casper-icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/Nectaria Free Website Template - Free-CSS.com/assets/fonts/casper-icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/Nectaria Free Website Template - Free-CSS.com/assets/fonts/casper-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/Nectaria Free Website Template - Free-CSS.com/assets/img/gravatar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/Nectaria Free Website Template - Free-CSS.com/assets/img/intro.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/Nectaria Free Website Template - Free-CSS.com/assets/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/Nectaria Free Website Template - Free-CSS.com/assets/img/logo.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/Nectaria Free Website Template - Free-CSS.com/assets/img/random.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/Nectaria Free Website Template - Free-CSS.com/assets/img/shadow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/Nectaria Free Website Template - Free-CSS.com/assets/img/top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/Nectaria Free Website Template - Free-CSS.com/assets/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/Nectaria Free Website Template - Free-CSS.com/assets/js/jquery.fitvids.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/Nectaria Free Website Template - Free-CSS.com/assets/js/masonry.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/Nectaria Free Website Template - Free-CSS.com/author.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/Nectaria Free Website Template - Free-CSS.com/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/Nectaria Free Website Template - Free-CSS.com/license.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/Nectaria Free Website Template - Free-CSS.com/license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/Nectaria Free Website Template - Free-CSS.com/page2.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,10 +62,34 @@
       <option name="presentableId" value="Default" />
       <updated>1605206421060</updated>
       <workItem from="1605206424754" duration="7000" />
+      <workItem from="1605207622900" duration="322000" />
     </task>
+    <task id="LOCAL-00001" summary="-- Project setup is ready">
+      <created>1605207747922</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605207747922</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="-- Project setup is ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="-- Project setup is ready" />
   </component>
 </project>
