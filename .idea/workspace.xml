@@ -10,14 +10,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1cdac29d-4cc0-47ba-8a92-493f9c1ab73c" name="Default Changelist" comment="-- Blog Template added">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/resources/views/layouts/footer.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/resources/views/layouts/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/final_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/final_project.iml" afterDir="false" />
+    <list default="true" id="1cdac29d-4cc0-47ba-8a92-493f9c1ab73c" name="Default Changelist" comment="-- Header/Footer added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/resources/views/homePage.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/resources/views/homePage.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/resources/views/homePage.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/resources/views/layouts/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/resources/views/layouts/footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/resources/views/layouts/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/resources/views/layouts/header.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +161,7 @@
       <updated>1605206421060</updated>
       <workItem from="1605206424754" duration="7000" />
       <workItem from="1605207622900" duration="1364000" />
-      <workItem from="1605271256739" duration="628000" />
+      <workItem from="1605271256739" duration="1188000" />
     </task>
     <task id="LOCAL-00001" summary="-- Project setup is ready">
       <created>1605207747922</created>
@@ -180,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605207978458</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="-- Header/Footer added">
+      <created>1605331209896</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605331209896</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,16 +205,17 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="-- Project setup is ready" />
     <MESSAGE value="-- Blog Template added" />
-    <option name="LAST_COMMIT_MESSAGE" value="-- Blog Template added" />
+    <MESSAGE value="-- Header/Footer added" />
+    <option name="LAST_COMMIT_MESSAGE" value="-- Header/Footer added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="539" y="380" key="NewPhpFileDialog" timestamp="1605208610238">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="539" y="380" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1605208610238" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1605207979999">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1605331212105">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1605207979999" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1605331212105" />
   </component>
 </project>
