@@ -10,11 +10,38 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1cdac29d-4cc0-47ba-8a92-493f9c1ab73c" name="Default Changelist" comment="-- Header/Footer added">
+    <list default="true" id="1cdac29d-4cc0-47ba-8a92-493f9c1ab73c" name="Default Changelist" comment="-- header/footer blade content added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/public/Nectaria Free Website Template - Free-CSS.com/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/public/Nectaria Free Website Template - Free-CSS.com/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/public/Nectaria Free Website Template - Free-CSS.com/article.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/public/Nectaria Free Website Template - Free-CSS.com/article.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/public/Nectaria Free Website Template - Free-CSS.com/assets/css/screen.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/public/css/screen.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/public/Nectaria Free Website Template - Free-CSS.com/assets/fonts/MonoSocialIconsFont-1.10.eot" beforeDir="false" afterPath="$PROJECT_DIR$/blog/public/fonts/MonoSocialIconsFont-1.10.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/public/Nectaria Free Website Template - Free-CSS.com/assets/fonts/MonoSocialIconsFont-1.10.otf" beforeDir="false" afterPath="$PROJECT_DIR$/blog/public/fonts/MonoSocialIconsFont-1.10.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/public/Nectaria Free Website Template - Free-CSS.com/assets/fonts/MonoSocialIconsFont-1.10.svg" beforeDir="false" afterPath="$PROJECT_DIR$/blog/public/fonts/MonoSocialIconsFont-1.10.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/public/Nectaria Free Website Template - Free-CSS.com/assets/fonts/MonoSocialIconsFont-1.10.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/blog/public/fonts/MonoSocialIconsFont-1.10.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/public/Nectaria Free Website Template - Free-CSS.com/assets/fonts/MonoSocialIconsFont-1.10.woff" beforeDir="false" afterPath="$PROJECT_DIR$/blog/public/fonts/MonoSocialIconsFont-1.10.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/public/Nectaria Free Website Template - Free-CSS.com/assets/fonts/casper-icons.eot" beforeDir="false" afterPath="$PROJECT_DIR$/blog/public/fonts/casper-icons.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/public/Nectaria Free Website Template - Free-CSS.com/assets/fonts/casper-icons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/blog/public/fonts/casper-icons.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/public/Nectaria Free Website Template - Free-CSS.com/assets/fonts/casper-icons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/blog/public/fonts/casper-icons.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/public/Nectaria Free Website Template - Free-CSS.com/assets/fonts/casper-icons.woff" beforeDir="false" afterPath="$PROJECT_DIR$/blog/public/fonts/casper-icons.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/public/Nectaria Free Website Template - Free-CSS.com/assets/img/gravatar.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/blog/public/img/gravatar.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/public/Nectaria Free Website Template - Free-CSS.com/assets/img/intro.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/blog/public/img/intro.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/public/Nectaria Free Website Template - Free-CSS.com/assets/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/blog/public/img/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/public/Nectaria Free Website Template - Free-CSS.com/assets/img/logo.psd" beforeDir="false" afterPath="$PROJECT_DIR$/blog/public/img/logo.psd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/public/Nectaria Free Website Template - Free-CSS.com/assets/img/random.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/blog/public/img/random.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/public/Nectaria Free Website Template - Free-CSS.com/assets/img/shadow.png" beforeDir="false" afterPath="$PROJECT_DIR$/blog/public/img/shadow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/public/Nectaria Free Website Template - Free-CSS.com/assets/img/top.png" beforeDir="false" afterPath="$PROJECT_DIR$/blog/public/img/top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/public/Nectaria Free Website Template - Free-CSS.com/assets/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog/public/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/public/Nectaria Free Website Template - Free-CSS.com/assets/js/jquery.fitvids.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog/public/js/jquery.fitvids.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/public/Nectaria Free Website Template - Free-CSS.com/assets/js/masonry.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog/public/js/masonry.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/public/Nectaria Free Website Template - Free-CSS.com/author.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/public/Nectaria Free Website Template - Free-CSS.com/author.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/public/Nectaria Free Website Template - Free-CSS.com/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/public/Nectaria Free Website Template - Free-CSS.com/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/public/Nectaria Free Website Template - Free-CSS.com/license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/public/Nectaria Free Website Template - Free-CSS.com/page2.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/public/Nectaria Free Website Template - Free-CSS.com/page2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/resources/views/homePage.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/resources/views/homePage.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/resources/views/layouts/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/resources/views/layouts/footer.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/resources/views/layouts/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/resources/views/layouts/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/resources/views/layouts/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/resources/views/layouts/master.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,6 +176,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/blog/public" />
+    </key>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -161,7 +193,7 @@
       <updated>1605206421060</updated>
       <workItem from="1605206424754" duration="7000" />
       <workItem from="1605207622900" duration="1364000" />
-      <workItem from="1605271256739" duration="1188000" />
+      <workItem from="1605271256739" duration="2583000" />
     </task>
     <task id="LOCAL-00001" summary="-- Project setup is ready">
       <created>1605207747922</created>
@@ -184,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605331209896</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="-- header/footer blade content added">
+      <created>1605331867914</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605331867914</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,16 +245,17 @@
     <MESSAGE value="-- Project setup is ready" />
     <MESSAGE value="-- Blog Template added" />
     <MESSAGE value="-- Header/Footer added" />
-    <option name="LAST_COMMIT_MESSAGE" value="-- Header/Footer added" />
+    <MESSAGE value="-- header/footer blade content added" />
+    <option name="LAST_COMMIT_MESSAGE" value="-- header/footer blade content added" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="539" y="380" key="NewPhpFileDialog" timestamp="1605208610238">
+    <state x="539" y="380" key="NewPhpFileDialog" timestamp="1605331838121">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="539" y="380" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1605208610238" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1605331212105">
+    <state x="539" y="380" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1605331838121" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1605331869837">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1605331212105" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1605331869837" />
   </component>
 </project>

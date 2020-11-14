@@ -7,13 +7,13 @@
     <meta name="description" content="Thoughts, reviews and ideas since 1999."/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="shortcut icon" href="#">
-    <link rel="stylesheet" type="text/css" href="assets/css/screen.css"/>
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/') }}/screen.css"/>
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:400,300italic,300,400italic,700,700italic|Playfair+Display:400,700,400italic,700italic"/>
 </head>
 <body class="home-template">
 <div class="site-wrapper">
     <nav class="main-nav overlay clearfix">
-        <a class="blog-logo" href="index.html"><img src="assets/img/logo.png" alt="Fashion Critiques"/></a>
+        <a class="blog-logo" href="index.html"><img src="{{ asset('img/') }}/logo.png" alt="Fashion Critiques"/></a>
         <ul id="menu">
             <li class="nav-home nav-current" role="presentation"><a href="index.html">Home</a></li>
             <li class="nav-article-example" role="presentation"><a href="article.html">Post Example</a></li>

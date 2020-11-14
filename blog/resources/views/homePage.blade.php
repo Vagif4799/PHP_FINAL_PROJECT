@@ -1,4 +1,7 @@
-<header class="main-header " style="background-image: url(assets/img/intro.jpg)">
+@extends('layouts.master')
+
+@section('content')
+<header class="main-header " style="background-image: url({{ asset('img/') }}/intro.jpg)">
     <div class="vertical">
         <div class="main-header-content inner">
             <h1 class="page-title">Fashion Critiques</h1>
@@ -12,7 +15,7 @@
 </header>
 <main id="content" class="content" role="main">
     <div class="wraps">
-        <img src="assets/img/shadow.png" class="wrapshadow">
+        <img src="{{ asset('img/') }}/shadow.png" class="wrapshadow">
         <div class="grid">
             <div class="grid-item">
                 <article class="post">
@@ -26,7 +29,7 @@
                             </p>
                         </section>
                         <footer class="post-meta">
-                            <img class="author-thumb" src="assets/img/gravatar.jpg" alt="David" nopin="nopin"/>
+                            <img class="author-thumb" src="{{ asset('img/') }}/gravatar.jpg" alt="David" nopin="nopin"/>
                             <a href="author.html">David</a>
                             <time class="post-date" datetime="2016-12-18">18 December 2016</time>
                         </footer>
@@ -46,7 +49,7 @@
                             </p>
                         </section>
                         <footer class="post-meta">
-                            <img class="author-thumb" src="assets/img/gravatar.jpg" alt="David" nopin="nopin"/>
+                            <img class="author-thumb" src="{{ asset('img/') }}/gravatar.jpg" alt="David" nopin="nopin"/>
                             <a href="author.html">David</a>
                             on <a href="#">romance</a>
                             <time class="post-date" datetime="2016-12-18">18 December 2016</time>
@@ -66,7 +69,7 @@
                             </p>
                         </section>
                         <footer class="post-meta">
-                            <img class="author-thumb" src="assets/img/gravatar.jpg" alt="David" nopin="nopin"/>
+                            <img class="author-thumb" src="{{ asset('img/') }}/gravatar.jpg" alt="David" nopin="nopin"/>
                             <a href="author.html">David</a>
                             <time class="post-date" datetime="2016-12-18">18 December 2016</time>
                         </footer>
@@ -86,7 +89,7 @@
                             </p>
                         </section>
                         <footer class="post-meta">
-                            <img class="author-thumb" src="assets/img/gravatar.jpg" alt="David" nopin="nopin"/>
+                            <img class="author-thumb" src="{{ asset('img/') }}/gravatar.jpg" alt="David" nopin="nopin"/>
                             <a href="author.html">David</a>
                             on <a href="#">romance</a>
                             <time class="post-date" datetime="2016-12-18">18 December 2016</time>
@@ -107,7 +110,7 @@
                             </p>
                         </section>
                         <footer class="post-meta">
-                            <img class="author-thumb" src="assets/img/gravatar.jpg" alt="David" nopin="nopin"/>
+                            <img class="author-thumb" src="{{ asset('img/') }}/gravatar.jpg" alt="David" nopin="nopin"/>
                             <a href="author.html">David</a>
                             on <a href="#">romance</a>
                             <time class="post-date" datetime="2016-12-18">18 December 2016</time>
@@ -128,7 +131,7 @@
                             </p>
                         </section>
                         <footer class="post-meta">
-                            <img class="author-thumb" src="assets/img/gravatar.jpg" alt="David" nopin="nopin"/>
+                            <img class="author-thumb" src="{{ asset('img/') }}/gravatar.jpg" alt="David" nopin="nopin"/>
                             <a href="author.html">David</a>
                             <time class="post-date" datetime="2016-12-18">18 December 2016</time>
                         </footer>
@@ -148,7 +151,7 @@
                             </p>
                         </section>
                         <footer class="post-meta">
-                            <img class="author-thumb" src="assets/img/gravatar.jpg" alt="David" nopin="nopin"/>
+                            <img class="author-thumb" src="{{ asset('img/') }}/gravatar.jpg" alt="David" nopin="nopin"/>
                             <a href="author.html">David</a>
                             on <a href="#">romance</a>
                             <time class="post-date" datetime="2016-12-18">18 December 2016</time>
@@ -169,7 +172,7 @@
                             </p>
                         </section>
                         <footer class="post-meta">
-                            <img class="author-thumb" src="assets/img/gravatar.jpg" alt="David" nopin="nopin"/>
+                            <img class="author-thumb" src="{{ asset('img/') }}/gravatar.jpg" alt="David" nopin="nopin"/>
                             <a href="author.html">David</a>
                             <time class="post-date" datetime="2016-12-14">14 December 2016</time>
                         </footer>
@@ -188,7 +191,7 @@
                             </p>
                         </section>
                         <footer class="post-meta">
-                            <img class="author-thumb" src="assets/img/gravatar.jpg" alt="David" nopin="nopin"/>
+                            <img class="author-thumb" src="{{ asset('img/') }}/gravatar.jpg" alt="David" nopin="nopin"/>
                             <a href="author.html">David</a>
                             <time class="post-date" datetime="2016-12-14">14 December 2016</time>
                         </footer>
@@ -202,3 +205,4 @@
         </nav>
     </div>
 </main>
+@endsection
