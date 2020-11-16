@@ -10,7 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1cdac29d-4cc0-47ba-8a92-493f9c1ab73c" name="Default Changelist" comment="-- homePageController added &amp; web.php updated" />
+    <list default="true" id="1cdac29d-4cc0-47ba-8a92-493f9c1ab73c" name="Default Changelist" comment="-- Article controller and Model created">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/database/migrations/2020_11_15_114959_create_articles_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/database/migrations/2020_11_15_114959_create_articles_table.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -166,7 +169,7 @@
       <workItem from="1605206424754" duration="7000" />
       <workItem from="1605207622900" duration="1364000" />
       <workItem from="1605271256739" duration="3795000" />
-      <workItem from="1605438470176" duration="1077000" />
+      <workItem from="1605438470176" duration="3012000" />
     </task>
     <task id="LOCAL-00001" summary="-- Project setup is ready">
       <created>1605207747922</created>
@@ -210,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605439761470</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="-- Article controller and Model created">
+      <created>1605441099004</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1605441099004</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,16 +249,17 @@
     <MESSAGE value="-- header/footer blade content added" />
     <MESSAGE value="-- all the assets updated via layouts" />
     <MESSAGE value="-- homePageController added &amp; web.php updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="-- homePageController added &amp; web.php updated" />
+    <MESSAGE value="-- Article controller and Model created" />
+    <option name="LAST_COMMIT_MESSAGE" value="-- Article controller and Model created" />
   </component>
   <component name="WindowStateProjectService">
     <state x="539" y="380" key="NewPhpFileDialog" timestamp="1605331838121">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="539" y="380" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1605331838121" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1605439763202">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1605441100678">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1605439763202" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1605441100678" />
   </component>
 </project>
