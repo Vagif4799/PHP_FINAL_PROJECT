@@ -11,4 +11,9 @@ class homePageController extends Controller
         $articles = Article::orderByDesc('created_at')->get();
         return view('homePage', compact('articles'));
     }
+
+    public function singlePage($slug) {
+
+    }
+
 }

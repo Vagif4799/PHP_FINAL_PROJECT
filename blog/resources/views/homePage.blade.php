@@ -22,7 +22,7 @@
                 <article class="post">
                     <div class="wrapgriditem">
                         <header class="post-header">
-                            <h2 class="post-title"><a href="article.html">{{$article->title}}</a></h2>
+                            <h2 class="post-title"><a href="{{route('post', $article->slug)}}">{{$article->title}}</a></h2>
                         </header>
                         <section class="post-excerpt">
                             <p>
@@ -32,7 +32,7 @@
                         <footer class="post-meta">
                             <img class="author-thumb" src="{{ asset('img/') }}/gravatar.jpg" alt="David" nopin="nopin"/>
                             <a href="author.html">{{$article->author}}</a>
-                            <time class="post-date" datetime="2016-12-18">{{"on ".\Illuminate\Support\Carbon::parse($article->created_at)->format('M d, Y')}}</time>
+                            <time class="post-date" datetime="2016-12-18">{{"on ".\Illuminate\Support\Carbon::parse($article->created_at)->format('F j, Y')}}</time>
                         </footer>
                     </div>
                 </article>
