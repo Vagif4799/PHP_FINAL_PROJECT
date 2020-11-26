@@ -13,7 +13,8 @@ class homePageController extends Controller
     }
 
     public function singlePage($slug) {
-
+        $post = Article::where('slug', $slug)->first();
+        return view('post', compact('post'));
     }
 
 }

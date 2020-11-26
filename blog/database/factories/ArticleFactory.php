@@ -31,7 +31,7 @@ class ArticleFactory extends Factory
             'author' => $this->faker->name,
             'image_url' => $this->faker->imageUrl(),
             'description' => $this->faker->paragraph,
-            'content' => $this->faker->realText(),
+            'content' => $this->faker->realText(5000),
             'slug' => $slug,
             'created_at' => now(),
             'updated_at' => now()
