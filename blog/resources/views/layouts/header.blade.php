@@ -16,9 +16,10 @@
         <a class="blog-logo" href="/"><img src="{{ asset('img/') }}/logo.png" alt="Fashion Critiques"/></a>
         <ul id="menu">
             <li class="nav-home nav-current" role="presentation"><a href="/">Home</a></li>
-            <li class="nav-article-example" role="presentation"><a href="article.html">About</a></li>
-            <li class="nav-about-us" role="presentation"><a href="about.html">Contact</a></li>
-            <li class="nav-author-page" role="presentation"><a href="author.html">Author</a></li>
+            @foreach($pages as $page)
+                <li class="nav-about-us" role="presentation"><a href="{{route('page', $page->slug)}}">{{$page->title}}</a></li>
+            @endforeach
+            <li class="nav-about-us" role="presentation"><a href="#">Contact</a></li>
             <span class="socialheader">
 		<a href="#"><span class='symbol'>circletwitterbird</span></a>
 		<a href="#"><span class='symbol'>circlefacebook</span></a>
