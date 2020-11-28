@@ -40,8 +40,8 @@
             @endforeach
         </div>
         <nav class="pagination" role="navigation">
-            <span class="page-number">Page 1 of 2</span>
-            <a class="older-posts" href="page2.html">Older Posts &rarr;</a>
+{{--            <span class="page-number">Page 1 of 2</span>--}}
+            <a class="older-posts" href="page2.html">{{$articles->links()}} </a>
         </nav>
     </div>
 </main>

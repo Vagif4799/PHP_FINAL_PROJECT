@@ -10,12 +10,41 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1cdac29d-4cc0-47ba-8a92-493f9c1ab73c" name="Default Changelist" comment="-- Minor fixes for slug in ArticleFactory.php">
+    <list default="true" id="1cdac29d-4cc0-47ba-8a92-493f9c1ab73c" name="Default Changelist" comment="-- Post opens in new page">
+      <change afterPath="$PROJECT_DIR$/blog/app/Http/Controllers/Auth/ConfirmPasswordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/app/Http/Controllers/Auth/ForgotPasswordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/app/Http/Controllers/Auth/VerificationController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/mix-manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/resources/sass/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/resources/sass/app.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/resources/views/auth/login.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/resources/views/auth/passwords/confirm.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/resources/views/auth/passwords/email.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/resources/views/auth/passwords/reset.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/resources/views/auth/register.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/resources/views/auth/verify.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/resources/views/home.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/final_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/final_project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/app/Http/Controllers/homePageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/app/Http/Controllers/homePageController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/database/factories/ArticleFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/database/factories/ArticleFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/blog/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog/resources/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/resources/views/homePage.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/resources/views/homePage.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/resources/views/layouts/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/resources/views/layouts/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/resources/views/post.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/resources/views/post.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,6 +165,7 @@
       <path value="$PROJECT_DIR$/blog/vendor/phpdocumentor/type-resolver" />
       <path value="$PROJECT_DIR$/blog/vendor/phpdocumentor/reflection-docblock" />
       <path value="$PROJECT_DIR$/blog/vendor/graham-campbell/result-type" />
+      <path value="$PROJECT_DIR$/blog/vendor/laravel/ui" />
     </include_path>
   </component>
   <component name="ProjectId" id="1kCZELWjFwcyQuyr2fZqASTQKZe" />
@@ -151,6 +181,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
@@ -173,7 +204,7 @@
       <workItem from="1605207622900" duration="1364000" />
       <workItem from="1605271256739" duration="3795000" />
       <workItem from="1605438470176" duration="7891000" />
-      <workItem from="1606215038652" duration="4010000" />
+      <workItem from="1606215038652" duration="6173000" />
     </task>
     <task id="LOCAL-00001" summary="-- Project setup is ready">
       <created>1605207747922</created>
@@ -252,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606389859571</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="-- Post opens in new page">
+      <created>1606398623104</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1606398623105</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,22 +324,23 @@
     <MESSAGE value="-- Via Faker, Fake data added to the article" />
     <MESSAGE value="-- The articles fetched from DB" />
     <MESSAGE value="-- Minor fixes for slug in ArticleFactory.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="-- Minor fixes for slug in ArticleFactory.php" />
+    <MESSAGE value="-- Post opens in new page" />
+    <option name="LAST_COMMIT_MESSAGE" value="-- Post opens in new page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="539" y="380" key="NewPhpFileDialog" timestamp="1605589283636">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="539" y="380" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1605589283636" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1606389862691">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1606398624557">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1606389862691" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1606398624557" />
     <state x="320" y="197" key="Vcs.Push.Dialog.v2/0.25.1440.813@0.25.1440.813" timestamp="1605551923347" />
-    <state x="386" y="152" width="670" height="749" key="search.everywhere.popup" timestamp="1606392459231">
+    <state x="386" y="152" width="670" height="749" key="search.everywhere.popup" timestamp="1606549023096">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="386" y="152" width="670" height="749" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1606392459231" />
+    <state x="386" y="152" width="670" height="749" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1606549023096" />
     <state x="386" y="162" width="670" height="676" key="search.everywhere.popup/0.25.1440.813@0.25.1440.813" timestamp="1605520522446" />
   </component>
 </project>

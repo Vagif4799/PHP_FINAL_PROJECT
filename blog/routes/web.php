@@ -15,3 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [\App\Http\Controllers\homePageController::class, 'index']);
 Route::get('/posts/{slug}', [\App\Http\Controllers\homePageController::class, 'singlePage'])->name('post');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

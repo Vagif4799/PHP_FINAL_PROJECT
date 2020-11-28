@@ -13,9 +13,9 @@
 <body class="home-template">
 <div class="site-wrapper">
     <nav class="main-nav overlay clearfix">
-        <a class="blog-logo" href="index.html"><img src="{{ asset('img/') }}/logo.png" alt="Fashion Critiques"/></a>
+        <a class="blog-logo" href="/"><img src="{{ asset('img/') }}/logo.png" alt="Fashion Critiques"/></a>
         <ul id="menu">
-            <li class="nav-home nav-current" role="presentation"><a href="index.html">Home</a></li>
+            <li class="nav-home nav-current" role="presentation"><a href="/">Home</a></li>
             <li class="nav-article-example" role="presentation"><a href="article.html">Post Example</a></li>
             <li class="nav-about-us" role="presentation"><a href="about.html">Page Example</a></li>
             <li class="nav-author-page" role="presentation"><a href="author.html">Author Page</a></li>

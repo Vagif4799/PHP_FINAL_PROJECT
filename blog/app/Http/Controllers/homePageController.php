@@ -8,7 +8,7 @@ use App\Models\Article;
 class homePageController extends Controller
 {
     public function index() {
-        $articles = Article::orderByDesc('created_at')->get();
+        $articles = Article::orderByDesc('created_at')->paginate(6);
         return view('homePage', compact('articles'));
     }
 
