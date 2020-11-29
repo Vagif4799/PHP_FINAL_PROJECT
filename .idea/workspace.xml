@@ -10,11 +10,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1cdac29d-4cc0-47ba-8a92-493f9c1ab73c" name="Default Changelist" comment="-- Auto Page generator added">
-      <change afterPath="$PROJECT_DIR$/blog/app/Http/Controllers/ContactController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/resources/views/contact.blade.php" afterDir="false" />
+    <list default="true" id="1cdac29d-4cc0-47ba-8a92-493f9c1ab73c" name="Default Changelist" comment="-- Contact Page added">
+      <change afterPath="$PROJECT_DIR$/blog/app/Models/Mail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/database/migrations/2020_11_29_060719_mails.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/resources/views/layouts/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/resources/views/layouts/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/app/Http/Controllers/ContactController.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/app/Http/Controllers/ContactController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/resources/views/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/resources/views/contact.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -175,7 +176,7 @@
       <workItem from="1605207622900" duration="1364000" />
       <workItem from="1605271256739" duration="3795000" />
       <workItem from="1605438470176" duration="7891000" />
-      <workItem from="1606215038652" duration="11657000" />
+      <workItem from="1606215038652" duration="13324000" />
     </task>
     <task id="LOCAL-00001" summary="-- Project setup is ready">
       <created>1605207747922</created>
@@ -289,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606583573211</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="-- Contact Page added">
+      <created>1606629237213</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1606629237213</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,7 +336,8 @@
     <MESSAGE value="-- Page model and controller added" />
     <MESSAGE value="-- PageSeeder.php added" />
     <MESSAGE value="-- Auto Page generator added" />
-    <option name="LAST_COMMIT_MESSAGE" value="-- Auto Page generator added" />
+    <MESSAGE value="-- Contact Page added" />
+    <option name="LAST_COMMIT_MESSAGE" value="-- Contact Page added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="508" y="380" key="#com.jetbrains.php.lang.intentions.PhpImportClassDialog#" timestamp="1606576508779">
@@ -339,10 +348,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="539" y="380" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1606627751309" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1606583581283">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1606629238728">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1606583581283" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1606629238728" />
     <state x="320" y="197" key="Vcs.Push.Dialog.v2/0.25.1440.813@0.25.1440.813" timestamp="1605551923347" />
     <state x="386" y="152" width="670" height="749" key="search.everywhere.popup" timestamp="1606627692949">
       <screen x="0" y="0" width="1440" height="900" />

@@ -80,12 +80,13 @@
             <img src="/w3images/map.jpg" style="width:100%">
         </div>
         <div class="column">
-            <form method="post" action="">
+            <form method="post" action="{{route('mail')}}">
+                @csrf
                 <label for="fname">Full Name</label>
                 <input type="text" id="fname" name="fullname" placeholder="Your full name..">
                 <label for="email">Enter your email:</label> <br>
                 <input type="email" id="email" name="email" placeholder="Your email.."><br><br>
-                <label for="subject">Subject</label>
+                <label for="subject">Your Message</label>
                 <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
                 <input type="submit" value="Submit">
             </form>
