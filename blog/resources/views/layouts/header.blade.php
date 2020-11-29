@@ -15,11 +15,11 @@
     <nav class="main-nav overlay clearfix">
         <a class="blog-logo" href="/"><img src="{{ asset('img/') }}/logo.png" alt="Fashion Critiques"/></a>
         <ul id="menu">
-            <li class="nav-home nav-current" role="presentation"><a href="/">Home</a></li>
+            <li class="{{request()->is('/') ? 'nav-home nav-current' : 'nav-home'}}" role="presentation"><a href="/">Home</a></li>
             @foreach($pages as $page)
-                <li class="nav-about-us" role="presentation"><a href="{{route('page', $page->slug)}}">{{$page->title}}</a></li>
+                <li class="{{request()->segment(1) == $page->slug ? 'nav-about-us nav-current' : 'nav-about-us'}}" role="presentation"><a href="{{route('page', $page->slug)}}">{{$page->title}}</a></li>
             @endforeach
-            <li class="nav-about-us" role="presentation"><a href="#">Contact</a></li>
+            <li class="nav-about-us" role="presentation"><a href="/contact">Contact</a></li>
             <span class="socialheader">
 		<a href="#"><span class='symbol'>circletwitterbird</span></a>
 		<a href="#"><span class='symbol'>circlefacebook</span></a>
