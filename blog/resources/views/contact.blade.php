@@ -75,6 +75,15 @@
         <h2>Contact Me</h2>
         <p>Swing by for a cup of coffee, or leave me a message:</p>
     </div>
+    @if ($errors->any())
+        <div class="alert alert-danger">
+            <ul>
+                @foreach ($errors->all() as $error)
+                    <li>{{ $error }}</li>
+                @endforeach
+            </ul>
+        </div>
+    @endif
     <div class="row">
         <div class="column">
             <img src="/w3images/map.jpg" style="width:100%">
@@ -83,9 +92,9 @@
             <form method="post" action="{{route('mail')}}">
                 @csrf
                 <label for="fname">Full Name</label>
-                <input type="text" id="fname" name="fullname" placeholder="Your full name..">
+                <input type="text" id="fname" name="fullname" value="{{old('fullname')}}" placeholder="Your full name..">
                 <label for="email">Enter your email:</label> <br>
-                <input type="email" id="email" name="email" placeholder="Your email.."><br><br>
+                <input type="email" id="email" name="email" value="{{old('email')}}" placeholder="Your email.."><br><br>
                 <label for="subject">Your Message</label>
                 <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
                 <input type="submit" value="Submit">
