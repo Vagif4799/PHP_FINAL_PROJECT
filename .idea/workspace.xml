@@ -10,10 +10,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1cdac29d-4cc0-47ba-8a92-493f9c1ab73c" name="Default Changelist" comment="-- Mail is saved in DB">
+    <list default="true" id="1cdac29d-4cc0-47ba-8a92-493f9c1ab73c" name="Default Changelist" comment="-- Data Validation added">
+      <change afterPath="$PROJECT_DIR$/blog/app/Http/Requests/sendMessage.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/app/Http/Controllers/ContactController.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/app/Http/Controllers/ContactController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/resources/views/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/resources/views/contact.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +175,7 @@
       <workItem from="1605207622900" duration="1364000" />
       <workItem from="1605271256739" duration="3795000" />
       <workItem from="1605438470176" duration="7891000" />
-      <workItem from="1606215038652" duration="14424000" />
+      <workItem from="1606215038652" duration="15687000" />
     </task>
     <task id="LOCAL-00001" summary="-- Project setup is ready">
       <created>1605207747922</created>
@@ -301,7 +303,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606631154721</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="-- Data Validation added">
+      <created>1606741474910</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1606741474911</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,7 +351,8 @@
     <MESSAGE value="-- Auto Page generator added" />
     <MESSAGE value="-- Contact Page added" />
     <MESSAGE value="-- Mail is saved in DB" />
-    <option name="LAST_COMMIT_MESSAGE" value="-- Mail is saved in DB" />
+    <MESSAGE value="-- Data Validation added" />
+    <option name="LAST_COMMIT_MESSAGE" value="-- Data Validation added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="508" y="380" key="#com.jetbrains.php.lang.intentions.PhpImportClassDialog#" timestamp="1606576508779">
@@ -353,15 +363,15 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="539" y="380" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1606627751309" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1606631156066">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1606741476670">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1606631156066" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1606741476670" />
     <state x="320" y="197" key="Vcs.Push.Dialog.v2/0.25.1440.813@0.25.1440.813" timestamp="1605551923347" />
-    <state x="386" y="152" width="670" height="749" key="search.everywhere.popup" timestamp="1606627692949">
+    <state x="386" y="152" width="670" height="749" key="search.everywhere.popup" timestamp="1606742940204">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="386" y="152" width="670" height="749" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1606627692949" />
+    <state x="386" y="152" width="670" height="749" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1606742940204" />
     <state x="386" y="162" width="670" height="676" key="search.everywhere.popup/0.25.1440.813@0.25.1440.813" timestamp="1605520522446" />
   </component>
 </project>

@@ -84,6 +84,13 @@
             </ul>
         </div>
     @endif
+
+    @if (session('success'))
+        <div class="alert alert-success">
+            {{session('success')}}
+        </div>
+    @endif
+
     <div class="row">
         <div class="column">
             <img src="/w3images/map.jpg" style="width:100%">

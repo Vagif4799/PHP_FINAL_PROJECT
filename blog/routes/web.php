@@ -19,7 +19,7 @@ Route::get('/posts/{slug}', [\App\Http\Controllers\homePageController::class, 's
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('contact', [\App\Http\Controllers\ContactController::class, 'contact']);
+Route::get('contact', [\App\Http\Controllers\ContactController::class, 'contact'])->name('contact');
 Route::post('/mail', [\App\Http\Controllers\ContactController::class, 'sendMail'])->name('mail');
 Route::get('/{page}', [\App\Http\Controllers\homePageController::class, 'getPages'])->name('page');
 
