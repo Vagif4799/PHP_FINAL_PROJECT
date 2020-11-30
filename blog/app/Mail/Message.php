@@ -16,9 +16,10 @@ class Message extends Mailable
      *
      * @return void
      */
-    public function __construct()
+    public $mail;
+    public function __construct($mail)
     {
-        //
+        $this->mail = $mail;
     }
 
     /**
@@ -28,6 +29,6 @@ class Message extends Mailable
      */
     public function build()
     {
-        return $this->view('view.name');
+        return $this->from('bloge@example.com')->view('mails.message');
     }
 }

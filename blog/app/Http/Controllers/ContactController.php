@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\sendMessage;
+use App\Mail\Message;
 use App\Models\Mail;
 use Illuminate\Http\Request;
 
@@ -30,6 +31,8 @@ class ContactController extends Controller
         $mail->message = $request->subject;
 
         $mail->save();
+
+        \Illuminate\Support\Facades\Mail::to('vagif@test.com')-> send(new Message($mail));
 
         return redirect()->route('contact')->with('success', 'We have received your message :)');
     }
