@@ -10,11 +10,94 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1cdac29d-4cc0-47ba-8a92-493f9c1ab73c" name="Default Changelist" comment="-- MailTrap added">
-      <change afterPath="$PROJECT_DIR$/blog/resources/views/mails/message.blade.php" afterDir="false" />
+    <list default="true" id="1cdac29d-4cc0-47ba-8a92-493f9c1ab73c" name="Default Changelist" comment="-- HTML Message added">
+      <change afterPath="$PROJECT_DIR$/blog/app/Http/Controllers/MainController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/dist/401.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/dist/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/dist/500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/dist/assets/demo/chart-area-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/dist/assets/demo/chart-bar-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/dist/assets/demo/chart-pie-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/dist/assets/demo/datatables-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/dist/assets/img/error-404-monochrome.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/dist/charts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/dist/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/dist/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/dist/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/dist/layout-sidenav-light.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/dist/layout-static.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/dist/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/dist/password.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/dist/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/dist/tables.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/scripts/build-assets.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/scripts/build-pug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/scripts/build-scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/scripts/build-scss.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/scripts/clean.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/scripts/render-assets.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/scripts/render-pug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/scripts/render-scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/scripts/render-scss.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/scripts/sb-watch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/scripts/start-debug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/scripts/start.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/src/assets/demo/chart-area-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/src/assets/demo/chart-bar-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/src/assets/demo/chart-pie-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/src/assets/demo/datatables-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/src/assets/img/error-404-monochrome.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/src/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/src/pug/layouts/authentication.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/src/pug/layouts/dashboard.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/src/pug/layouts/error.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/src/pug/layouts/includes/footer.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/src/pug/layouts/includes/head/css.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/src/pug/layouts/includes/head/icons.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/src/pug/layouts/includes/head/meta.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/src/pug/layouts/includes/head/title.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/src/pug/layouts/includes/navigation/sidenav.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/src/pug/layouts/includes/navigation/topnav.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/src/pug/layouts/includes/scripts.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/src/pug/pages/401.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/src/pug/pages/404.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/src/pug/pages/500.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/src/pug/pages/charts.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/src/pug/pages/includes/datatable.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/src/pug/pages/includes/page-header.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/src/pug/pages/index.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/src/pug/pages/layout-sidenav-light.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/src/pug/pages/layout-static.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/src/pug/pages/login.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/src/pug/pages/password.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/src/pug/pages/register.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/src/pug/pages/tables.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/src/scss/_global.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/src/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/src/scss/layout/_authentication.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/src/scss/layout/_dashboard-default.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/src/scss/layout/_dashboard-fixed.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/src/scss/layout/_error.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/src/scss/navigation/_nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/src/scss/navigation/_topnav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/src/scss/navigation/sidenav/_sidenav-dark.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/src/scss/navigation/sidenav/_sidenav-light.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/src/scss/navigation/sidenav/_sidenav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/src/scss/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/src/scss/variables/_navigation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/startbootstrap-sb-admin-master/src/scss/variables/_spacing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/resources/views/admin/header.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/resources/views/admin/main.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/app/Http/Controllers/ContactController.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/app/Http/Controllers/ContactController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/app/Mail/Message.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/app/Mail/Message.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +257,7 @@
       <workItem from="1605207622900" duration="1364000" />
       <workItem from="1605271256739" duration="3795000" />
       <workItem from="1605438470176" duration="7891000" />
-      <workItem from="1606215038652" duration="17040000" />
+      <workItem from="1606215038652" duration="19370000" />
     </task>
     <task id="LOCAL-00001" summary="-- Project setup is ready">
       <created>1605207747922</created>
@@ -316,7 +399,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606743237235</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="-- HTML Message added">
+      <created>1606746080200</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1606746080200</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -359,26 +449,27 @@
     <MESSAGE value="-- Mail is saved in DB" />
     <MESSAGE value="-- Data Validation added" />
     <MESSAGE value="-- MailTrap added" />
-    <option name="LAST_COMMIT_MESSAGE" value="-- MailTrap added" />
+    <MESSAGE value="-- HTML Message added" />
+    <option name="LAST_COMMIT_MESSAGE" value="-- HTML Message added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="508" y="380" key="#com.jetbrains.php.lang.intentions.PhpImportClassDialog#" timestamp="1606576508779">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="508" y="380" key="#com.jetbrains.php.lang.intentions.PhpImportClassDialog#/0.0.1440.900@0.0.1440.900" timestamp="1606576508779" />
-    <state x="539" y="380" key="NewPhpFileDialog" timestamp="1606745067000">
+    <state x="539" y="380" key="NewPhpFileDialog" timestamp="1607002926010">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="539" y="380" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1606745067000" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1606743239727">
+    <state x="539" y="380" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1607002926010" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1606746082046">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1606743239727" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1606746082046" />
     <state x="320" y="197" key="Vcs.Push.Dialog.v2/0.25.1440.813@0.25.1440.813" timestamp="1605551923347" />
-    <state x="386" y="152" width="670" height="749" key="search.everywhere.popup" timestamp="1606742940204">
+    <state x="386" y="152" width="670" height="749" key="search.everywhere.popup" timestamp="1606808854220">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="386" y="152" width="670" height="749" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1606742940204" />
+    <state x="386" y="152" width="670" height="749" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1606808854220" />
     <state x="386" y="162" width="670" height="676" key="search.everywhere.popup/0.25.1440.813@0.25.1440.813" timestamp="1605520522446" />
   </component>
 </project>

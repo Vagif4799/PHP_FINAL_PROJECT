@@ -2,6 +2,10 @@
 
 use Illuminate\Support\Facades\Route;
 
+
+Route::get('admin/main', [\App\Http\Controllers\MainController::class, 'index']);
+
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
