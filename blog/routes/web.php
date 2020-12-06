@@ -3,7 +3,9 @@
 use Illuminate\Support\Facades\Route;
 
 
-Route::get('admin/main', [\App\Http\Controllers\MainController::class, 'index']);
+Route::get('admin/main', [\App\Http\Controllers\MainController::class, 'index'])->name('main');
+Route::get('admin/login', [\App\Http\Controllers\LoginController::class, 'index'])->name('login');
+Route::post('admin/login', [\App\Http\Controllers\LoginController::class, 'authenticate'])->name('login.post');
 
 
 /*
