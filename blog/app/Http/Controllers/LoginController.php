@@ -22,4 +22,9 @@ class LoginController extends Controller
             return redirect('login');
         }
     }
+
+    public function logout() {
+        Auth:$this->logout();
+        return redirect()->route('login');
+    }
 }

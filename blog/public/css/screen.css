@@ -867,7 +867,7 @@ body.nav-opened .nav {
 	-webkit-animation-delay:0.1s;
 	animation-delay: 0.1s;
 }
-/* Every post,on every page,gets this style on its <article>tag */
+/* Every post,on every page,gets this style on its <articles>tag */
 .post {
 	position:relative;
 	border-bottom:#EBF2F6 1px solid;

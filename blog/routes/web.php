@@ -3,9 +3,20 @@
 use Illuminate\Support\Facades\Route;
 
 
-Route::get('admin/main', [\App\Http\Controllers\MainController::class, 'index'])->name('main');
-Route::get('admin/login', [\App\Http\Controllers\LoginController::class, 'index'])->name('login');
-Route::post('admin/login', [\App\Http\Controllers\LoginController::class, 'authenticate'])->name('login.post');
+Route::prefix('admin')->group(function () {
+
+    Route::get('login', [\App\Http\Controllers\LoginController::class, 'index'])->name('login');
+    Route::post('login', [\App\Http\Controllers\LoginController::class, 'authenticate'])->name('login.post');
+
+    Route::middleware('auth')->group(function () {
+        Route::get('main', [\App\Http\Controllers\MainController::class, 'index'])->name('main')->middleware('auth');
+        Route::get('logout', [\App\Http\Controllers\LoginController::class, 'logout'])->name('logout');
+        Route::resource('articles', \App\Http\Controllers\ArticleController::class);
+    });
+
+});
+
+
 
 
 /*
