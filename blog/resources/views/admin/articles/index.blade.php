@@ -43,7 +43,7 @@
                     <td>{{$article->description}}</td>
                     <td>{{$article->content}}</td>
                     <td>{{$article->author}}</td>
-                    <td><img src="{{$article->image_url}}" alt="image" width="200" height="200"></td>
+                    <td><img src="{{asset('images/'.$article->image_url)}}" alt="image" width="200" height="200"></td>
                     <td>{{$article->created_at}}</td>
                     <td>{{$article->updated_at}}</td>
                     <td width="160">
