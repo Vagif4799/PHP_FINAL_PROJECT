@@ -10,17 +10,8 @@
     <link href="{{asset('startbootstrap-sb-admin-master/dist/')}}/css/styles.css" rel="stylesheet" />
     <link href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" rel="stylesheet" crossorigin="anonymous" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js" crossorigin="anonymous"></script>
-
-    <script>
-        $(document).on('click', '.delete', function () {
-            let url = $(this).data('url');
-
-        });
-        $('.delete').on('click', function () {
-
-        });
-    </script>
-
+    <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+    <script>tinymce.init({selector:'textarea'});</script>
 </head>
 <body class="sb-nav-fixed">
 <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
@@ -121,65 +112,60 @@
     <div id="layoutSidenav_content">
         <main>
             <div class="container-fluid">
-                <h1 class="mt-4">See your Articles</h1>
+                <h1 class="mt-4">Update your Article</h1>
                 <ol class="breadcrumb mb-4">
-                    <li class="breadcrumb-item active">Modify as you want :)</li>
+                    <li class="breadcrumb-item active">Again...</li>
                 </ol>
 
+                <form action="{{route('articles.update', $article->id)}}" method="post" enctype="multipart/form-data">
+                    @csrf
+                    @method('put')
+                    <div class="form-group">
+                        <label for="">Title</label>
+                        <input type="text" name="title" required class="form-control" value="{{$article->title}}">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Author</label>
+                        <input type="text" name="author" required class="form-control" value="{{$article->author}}">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Description</label>
+                        <textarea name="description" id="" rows="3" class="form-control">
+                            {!! $article->description !!}
+                        </textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Content</label>
+                        <textarea name="article_content" id="" rows="3" class="form-control">
+                            {!! $article->content !!}
+                        </textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Image</label>
+                        <img src="{{asset('images/'.$article->image_url)}}">
+                        <input type="file" name="photo" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-outline-success">Update your Article</button>
+                    </div>
+                </form>
 
-<div class="card mb-4">
-    <div class="card-header">
-        <i class="fas fa-table mr-1"></i>
-        DataTable Example
-    </div>
-    <div class="card-body">
-        <div class="table-responsive">
-            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                <thead>
-                <tr>
-                    <th>Title</th>
-                    <th>Description</th>
-                    <th>Content</th>
-                    <th>Author</th>
-                    <th>Image</th>
-                    <th>Created Date</th>
-                    <th>Updated Date</th>
-                    <th>Actions</th>
-                </tr>
-                </thead>
-                <tbody>
-
-                @foreach($articles as $article)
-                <tr>
-                    <td>{{$article->title}}</td>
-                    <td>{!! $article->description !!}</td>
-                    <td>{!! \Illuminate\Support\Str::words($article->content, 10) !!}</td>
-                    <td>{{$article->author}}</td>
-                    <td><img src="{{asset('images/'.$article->image_url)}}" alt="image" width="200" height="200"></td>
-                    <td>{{$article->created_at}}</td>
-                    <td>{{$article->updated_at}}</td>
-                    <td width="160">
-                        <a href="{{route('articles.view', $article->id)}}" class="btn btn-info">
-                            <i class="fa fa-eye"></i>
-                        </a>
-                        <a href="{{route('articles.edit', $article->id)}}" class="btn btn-primary">
-                            <i class="fa fa-edit"></i>
-                        </a>
-                        <a href="#" class="btn btn-danger delete" data-url="{{route('articles.destroy', $article->id)}}">
-                            <i class="fa fa-trash"></i>
-                        </a>
-                    </td>
-                </tr>
-                @endforeach
-
-                </tbody>
-            </table>
-        </div>
+            </div>
+        </main>
+        <footer class="py-4 bg-light mt-auto">
+            <div class="container-fluid">
+                <div class="d-flex align-items-center justify-content-between small">
+                    <div class="text-muted">Copyright &copy; Your Website 2020</div>
+                    <div>
+                        <a href="#">Privacy Policy</a>
+                        &middot;
+                        <a href="#">Terms &amp; Conditions</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </div>
 </div>
-
-
-
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 <script src="{{asset('startbootstrap-sb-admin-master/dist/')}}/js/scripts.js"></script>
