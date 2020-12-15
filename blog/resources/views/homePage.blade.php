@@ -26,7 +26,7 @@
                         </header>
                         <section class="post-excerpt">
                             <p>
-                                 {{$article->description}} <a class="read-more" href="/retro-is-the-new-modern/">&raquo;</a>
+                                 {!! $article->description !!} <a class="read-more" href="/retro-is-the-new-modern/">&raquo;</a>
                             </p>
                         </section>
                         <footer class="post-meta">

@@ -12,6 +12,7 @@ Route::prefix('admin')->group(function () {
         Route::get('main', [\App\Http\Controllers\MainController::class, 'index'])->name('main')->middleware('auth');
         Route::get('logout', [\App\Http\Controllers\LoginController::class, 'logout'])->name('logout');
         Route::resource('articles', \App\Http\Controllers\ArticleController::class);
+        Route::get('view/{id}', [\App\Http\Controllers\ArticleController::class, 'showArticle'])->name('articles.view');
     });
 
 });

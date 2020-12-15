@@ -103,4 +103,10 @@ class ArticleController extends Controller
     {
         //
     }
+
+    public function showArticle($id) {
+        $article = Article::find($id);
+        return view('admin.articles.view', compact('article'));
+    }
+
 }

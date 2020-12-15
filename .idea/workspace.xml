@@ -10,18 +10,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1cdac29d-4cc0-47ba-8a92-493f9c1ab73c" name="Default Changelist" comment="-- Admin-Articles page added">
-      <change afterPath="$PROJECT_DIR$/blog/public/images/1607845003.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/resources/views/admin/articles/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/final_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/final_project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="1cdac29d-4cc0-47ba-8a92-493f9c1ab73c" name="Default Changelist" comment="-- Image upload added">
+      <change afterPath="$PROJECT_DIR$/blog/resources/views/admin/articles/view.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/app/Http/Controllers/ArticleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/app/Http/Controllers/ArticleController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/blog/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/config/app.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/resources/views/admin/articles/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/resources/views/admin/articles/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/resources/views/admin/main.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/resources/views/admin/main.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/resources/views/homePage.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/resources/views/homePage.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/resources/views/post.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/resources/views/post.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +181,9 @@
       <workItem from="1605438470176" duration="7891000" />
       <workItem from="1606215038652" duration="20724000" />
       <workItem from="1607232474823" duration="8375000" />
-      <workItem from="1607773415608" duration="5946000" />
+      <workItem from="1607773415608" duration="7008000" />
+      <workItem from="1607961648765" duration="1696000" />
+      <workItem from="1607995471933" duration="262000" />
     </task>
     <task id="LOCAL-00001" summary="-- Project setup is ready">
       <created>1605207747922</created>
@@ -355,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607786818310</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="-- Image upload added">
+      <created>1607849088897</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1607849088897</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -402,26 +407,27 @@
     <MESSAGE value="-- Admin Panel Template added" />
     <MESSAGE value="-- Admin-Login added" />
     <MESSAGE value="-- Admin-Articles page added" />
-    <option name="LAST_COMMIT_MESSAGE" value="-- Admin-Articles page added" />
+    <MESSAGE value="-- Image upload added" />
+    <option name="LAST_COMMIT_MESSAGE" value="-- Image upload added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="508" y="380" key="#com.jetbrains.php.lang.intentions.PhpImportClassDialog#" timestamp="1606576508779">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="508" y="380" key="#com.jetbrains.php.lang.intentions.PhpImportClassDialog#/0.0.1440.900@0.0.1440.900" timestamp="1606576508779" />
-    <state x="539" y="380" key="NewPhpFileDialog" timestamp="1607787297819">
+    <state x="539" y="380" key="NewPhpFileDialog" timestamp="1607962569160">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="539" y="380" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1607787297819" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1607786820661">
+    <state x="539" y="380" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1607962569160" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1607849090596">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1607786820661" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1607849090596" />
     <state x="320" y="197" key="Vcs.Push.Dialog.v2/0.25.1440.813@0.25.1440.813" timestamp="1605551923347" />
-    <state x="386" y="152" width="670" height="749" key="search.everywhere.popup" timestamp="1607848370552">
+    <state x="386" y="152" width="670" height="749" key="search.everywhere.popup" timestamp="1607995925427">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="386" y="152" width="670" height="749" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1607848370552" />
+    <state x="386" y="152" width="670" height="749" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1607995925427" />
     <state x="386" y="162" width="670" height="676" key="search.everywhere.popup/0.25.1440.813@0.25.1440.813" timestamp="1605520522446" />
   </component>
 </project>

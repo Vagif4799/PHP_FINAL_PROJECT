@@ -40,14 +40,14 @@
                 @foreach($articles as $article)
                 <tr>
                     <td>{{$article->title}}</td>
-                    <td>{{$article->description}}</td>
-                    <td>{{$article->content}}</td>
+                    <td>{!! $article->description !!}</td>
+                    <td>{!! \Illuminate\Support\Str::words($article->content, 10) !!}</td>
                     <td>{{$article->author}}</td>
                     <td><img src="{{asset('images/'.$article->image_url)}}" alt="image" width="200" height="200"></td>
                     <td>{{$article->created_at}}</td>
                     <td>{{$article->updated_at}}</td>
                     <td width="160">
-                        <a href="#" class="btn btn-info">
+                        <a href="{{route('articles.view', $article->id)}}" class="btn btn-info">
                             <i class="fa fa-eye"></i>
                         </a>
                         <a href="#" class="btn btn-primary">
